@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("stars2.jpg");
+		background-image: url("stars2.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
