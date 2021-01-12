@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Thinking Thoughts Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+			
+				<p style="padding: 0.5cm;"</p>
+				
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">The Thinking Thoughts Blog</a></h1>
+						<!-- <nav class="links">
+							<ul>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Ipsum</a></li>
+								<li><a href="#">Feugiat</a></li>
+								<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav> -->
+					</header>
+
+				<!-- Menu
+					<section id="menu">
+						<!-- Search 
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section> -->
+
+						<!-- Links
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section> -->
+
+						<!-- Actions 
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section> -->
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="Being-Ethnically-Ambiguous-in-a-Race-Fueled-America.html">Being Ethnically Ambiguous in a Race Fueled America</a></h2>
+										
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2020-12-27">December 27th, 2020</time>
+										<a class="author"><span class="name">Roya Lotfi</span><img src="images/profile.jpg" alt="" /></a>
+									</div>
+								</header>
+							
+								<p>Not one person I’ve met has ever guessed my race correctly. Honestly, no one has ever even come close. Many people have tried, listing off anything from Eastern European to Latin American to Pacific Islander. Many people have assumed, politely asking me for directions in Spanish to the nearest bathroom in the airport terminal. Even in those interactions I still notice an air of uncertainty, one that has blanketed my racial background since I was born. I’m half Chinese and half Iranian. No, I’m not muslim, but my paternal grandparents who live in Iran are. Yes, I’ve been to China, and yes, the locals in my maternal grandparent’s Shenzhen neighborhood used to stare at my brothers and I with absolutely no disregard because we were the only non-natives walking around town. And to those who stare, no, my mother is not our maid or nanny, and yes, we have actually been asked that before. When I was younger, it never fully dawned on me how unusual it is to be ostracized in the country you share half your heritage with. Not until I began to look at where I belong in this country, the country I was born and raised.</p>
+								<p>One afternoon I was talking with some acquaintances when we stumbled upon the topic of school. One white guy, around my age, started ranting about the many Muslim schools in a nearby town with a large Muslim population. He was disgusted that apparently these Muslim schools are brainwashing children into hating America and forcing them into a dangerous religion. Now, the irony is not lost on me that this man was also a proud Catholic, and that many students in our own town attended Catholic schools. Even more astounding was that he was telling this to me as if he were confiding in a friend, like this was a conversation he thought I would actually enjoy having with him. I was utterly shocked. For a few seconds I actually just stared at him with confusion, running scenarios in my head about how one should actually respond in such a situation. It’s not so much that I was surprised at what he said, as he was certainly not shy about his conservative views. I just couldn’t understand why he would say that to me. Me, whose father was born and raised in “Muslim” schools in Iran, whose grandparents practiced this religion every day. In the end I couldn’t think of one thing to respond with before he stood up and walked away.</p>
+								<p>For so long, I never realized how much the ambiguity of my race has affected what I do - or moreso, what I do not - experience. I’ve never had an incident in my life where I can think of where a stranger has been biased, rude, or even violent towards me for the sole purpose of my race. If I were a hijabi Muslim like my grandmother, or had more Iranian features like my father, would I be searched more often at the airport, or be scrutinized by police? If I looked more Chinese like my mother, would I be mocked, fetishized, and infantilized like many of my Chinese friends? Can I truly claim the same experience with those who I share half my heritage with if I do not share the same discrimination? And, how can it be that I am so devoid of these experiences if my being, both biologically and culturally, is so similar to those who face them every day? I can be white-passing, but I still do not share the same privileges as white people either. I have no generational wealth, my immigrant parents have no network in this country to offer me opportunity and guide me through adulthood. What I do experience, however, is respect and even kindness from many people I know to be at times openly racist towards the very parts that make me whole.</p> 
+								<p>I’ve heard stories about my Iranian father being “randomly” selected at the airport, even followed around by suspicious associates at department stores. I’ve seen my mother, who holds a Master’s degree in computer science, be patronized because she’s a 5’0” Asian woman with an accent. I’ve always been grateful to my parents who have given me the privilege of being raised in a middle class neighborhood with a competitive school and financial stability. But I’ve only recently begun to understand that my privilege in no way stops there. I’ve never once been confronted with any of the prejudices my parents have and still face. I’ve never experienced what it’s like to have my character or ability be preconceived based on my race, because my race has always been inherently unidentifiable to those who have sought to judge me off it. I’ve always considered myself as non-white or a “person of color”, but in this race-fueled age, where attacks have become personal and counter-movements even more so, where does one stand when they both belong with and are alienated from both sides?</p>
+								<p>I’ll always regret that I did not speak up during that incident. Why couldn’t I stand up for my culture? Is it because I didn’t feel like I was a valid mouthpiece for a religion I do not practice, and an ethnicity I am only half of? I’ve never been shy when it comes to voicing my political beliefs. I care about the wellbeing of our society, about equality and acceptance. I know I want to be on the right side of history, but what side claims me? Allyship is one thing, but even white allies have a place in fighting inequality by using their privilege to elevate others. But when you have no white privilege, but you have white-passing privilege, are you oppressed enough to fight for your people or are you privileged enough to make way for others? Of course, I realize that no matter what, I can and always will practice what I believe is right. As a citizen, nothing is stopping me from voting for politicians I feel will do right by this country, or from joining a political group or movement that I believe in. There is never a shortage of those willing to bring goodness into our society. I’m Iranian, and I’m also Chinese, but mostly I’m American.</p>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+								<li><a target="_blank" href="https://twitter.com/loyarotfi" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/roya.lotfi" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a target="_blank" href="mailto: rlotfi288@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+
+						</ul>
+						<p class="copyright">&copy; Roya Lotfi. Design: <a href="http://html5up.net">HTML5 UP</a>.
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
