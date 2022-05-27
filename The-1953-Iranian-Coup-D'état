@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Thinking Thoughts Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				
+				<p style="padding: 0.5cm;"</p>
+				
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">The Thinking Thoughts Blog</a></h1>
+						<!-- <nav class="links">
+							<ul>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Ipsum</a></li>
+								<li><a href="#">Feugiat</a></li>
+								<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav> -->
+					</header>
+
+				<!-- Menu
+					<section id="menu">
+						<!-- Search 
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section> -->
+
+						<!-- Links
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section> -->
+
+						<!-- Actions 
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section> -->
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+						
+						<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="The-1953-Iranian-Coup-D'état.html">The 1953 Iranian Coup D'état</a></h2>
+										
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2022-03-08">March 8th, 2022</time>
+										<a class="author"><span class="name">Roya Lotfi</span><img src="images/profile.jpg" alt="" /></a>
+									</div>
+								</header>
+							
+								<p>In his book <i>Losing the Long Game</i>, Philip Gordon calls the 1953 coup d'état of Iranian Prime Minister Mohammed Mosaddeq the “Original Sin,” suggesting it was the first in a series of foreign policy decisions in the Middle East that eventually led to the region's current instability. In April of 1951 the Shah of Iran, Mohammad Reza Pahlavi, appointed Mosaddeq as Prime Minister of Iran with the knowledge of his rising popularity over his fierce nationalism and willingness to confront British imperial capitalism. Ironically, with his passionate advocacy for his people, he seemingly shared many qualities with America’s most revered freedom fighters; Time magazine at the time called him “Iran’s George Washington” (Gordon 2020, 26). Nonetheless, in the midst of Cold War tensions, communist fears, and capitalistic motives, the U.S. CIA and Britain MI6 jointly devised a foreign policy initiative to depose Mosaddeq, resulting in minor short term success and devastating long term consequences.</p>
+								<p>To start, Mosaddeq hated the Anglo-Iranian Oil Company (AIOC), and the feelings were mutual. In short, the AOIC was grossly mistreating Iranian oil workers and cheating them out of any fair share of profits. It allowed no Iranian directors, paid no taxes to Iran, and arranged a dismal profit-sharing system that allowed it to take home a wide majority of the profits. During his time as a politician and after he was elected Prime Minister, Mosaddeq attempted to negotiate a better deal for Iran but was “ . . . met with categorical British rejection” (Gordon 2020, 27) because Britain needed the massive profits to rebuild their post-war economy. With no hope for compromise, the Majlis (the Iranian parliament) voted unanimously to nationalize the AIOC in April 1951, just a few days after Mosaddeq was appointed Prime Minister. The immediate British reaction was, as Gordon describes, “ . . . furious and uncompromising” (28).</p>
+								<p>On the other side of the Atlantic, President Truman urged Britain and Iran to come up with a compromise. In a document to Mosaddeq on June 1, 1951, President Truman pressured, “It is anxious that a solution be found which will satisfy the desires of the Iranian people for nationalization of their petroleum resources, and at the same time will safeguard basic British interests and assure the continued flow of Iranian oil into the economy of the free world” (Raether & Sampson, 1989b). The President saw Mosaddeq as a “ . . . bulwark against the influence of the communist Tudeh Party” (Gordon 2020, 28), and many other U.S. politicians saw him as a fierce nationalist rather than a potential Soviet proxy. A compromise that would enable the West to continue friendly business relations with Iran was the preferred outcome for Truman, but that all changed when President Eisenhower came into office in November of 1952.</p>
+							  <p>At first, Eisenhower’s administration was on the same page as its predecessor’s, but was also increasingly worried about the worldwide communist threat and the U.S.’s role in putting a stop to its spread. So, when Britain pitched the idea for a coup to overthrow Mosaddeq and reinstate the Shah, it seemingly served as the perfect low-cost, anti-communist solution that the U.S., reeling from the failures of the Korean War, was looking for. As Gordon explains, “The overwhelming priority for the British was to protect their own oil and geopolitical interests, but they knew what buttons to push in Washington to help them do so” (Gordon 2020, 30). Britain convinced America that communism would only grow more powerful the longer Mosaddeq was in office (while conveniently glossing over the British’s own agenda to regain control over the oil industry). Eisenhower and Secretary of State John Foster Dulles bought it.</p>
+                <p>Once the seed for Iranian intervention was planted, it only continued to grow:  “ . . . it wasn’t long before U.S. analyses started to bolster the case for intervention and officials began to see what they wanted to see” (Gordon 2020, 31). These views were partially supported by recent power struggles in Iran that made the U.S. believe that a regime change would be welcome and if it did not occur, Mosaddeq would turn to communist support to stay in power. But Gordon debunks both of these views: “Mosaddeq was indeed obstinate, mercurial, emotional, and inflexible, but he was also broadly popular, strongly anticommunist, and probably the only hope to avoid dictatorship or chaos in Iran” (32). Yet, the U.S. seed was inevitable.</p>
+                <p>The plan became known as Operation Ajax lead by senior CIA officer Kermit Roosevelt Jr., and would “ . . . consist [of] bribing journalists, editors, Islamic preachers, and opinion leaders to undermine the government and fan the flames of distrust” (Gordon 2020, 33), ultimately leading to the firing and, after resistance, arrest of Mosaddeq and the restoration of the Shah’s rule. On August 14th, 1953, the Shah dismissed Mosaddeq and appointed General Zahedi as Prime Minister. However, two alterations to the plan occurred. First, Mosaddeq was tipped off that the commander of the Imperial Guard Nematollah Nassiri was coming to dismiss him and surrounded himself with loyalists as protection. Believing the coup had failed, Zahedi went into hiding, the Shah fled to Baghdad, and Roosevelt declared the operation a failure. The second change of plan was that after declaring failure, Roosevelt continued with his mission anyway. He used CIA agents to “ . . . encourage continued protests and rioting in Tehran, while Mosaddeq – who abhorred violence – made the fatal mistake of telling his own supporters to stand down” (34). After the scales had been tipped, Zahedi came out of hiding and declared himself Prime Minister while the Shah reclaimed his throne. The U.S. declared Operation Ajax a remarkable success.</p>
+                <p>The question to ask almost 70 years later is whether or not it actually was a success. Indeed, based on the objective to oust Prime Minister Mosaddeq and reinstate the Shah as the supreme ruler of Iran, the operation completed its goals. The AIOC was blocked from nationalizing and the new Iranian leadership allowed U.S. oil companies to break into the Middle East market. However, in almost every other facet, the coup produced disastrous consequences. Gordon lays out a few, the first being that Iran’s prospects for democratic development were essentially erased as the Shah “ . . . immediately set out to crush all dissent” (Gordon 2020, 36), including in Mosaddeq’s old party, and significantly weaken the power of the Tudeh party and Majlis. He also fired Zahedi, “ . . . replacing him with a series of weak prime ministers who posed no political threat” (36), further securing his absolute power. Islamic clerics were the one group left able to foster opposition because of the sacred environment of mosques, and their dissent eventually led to the 1978-79 revolution.</p>
+                <p>To be fair, the U.S. tried to push for democratic, economic, and social development in Iran, but they simply did not have enough leverage to be taken seriously by the Shah. Instead, with the U.S. fear of communism’s spread in the Middle East and their investment in his regime as his leverage, the Shah had the upper hand and used it to get what he wanted (oftentimes weapons) from the U.S.. Iran also continued with its plans to nationalize oil and develop a nuclear program, amongst other things, and the U.S. was left with little options for retaliation. Gordon poses the situation in a question: “What was Washington going to do, pull the plug on a proxy it had helped put in power in the first place?” (Gordon 2020, 39). It turned out that the Shah was the opposite of the ally the U.S. had hoped for.</p>
+                <p>But perhaps the most significant and damaging outcome of the coup was the culture it sowed in Iran. Gordon explains that, “ . . . U.S. complicity in empowering and then supporting the brutally repressive shah provided fuel for deep-seated Iranian hostility toward the United States, powerfully contributing to the 1978-79 revolution and the confrontational policies of the regime that followed it” (Gordon 2020, 40). One of the main goals of the 1953 coup was to impose a U.S. friendly regime in Iran, which turned out to backfire tremendously.</p>
+                <p>With these outcomes in mind, the question now is how the U.S. and Britain could have allowed themselves to cause such a catastrophe. To start, Britain’s main objective was never to create a democratic, anti-communist, liberal Iran, no matter what they told the U.S. at the time. Their goal was to continue reaping the benefits of the profitable AIOC as a means to rebuild their war-torn economy. The prior may have made sense for Britain’s long-term objectives regarding Iran, but the latter’s short-term needs overruled. And as a result, only short-term benefits were produced. On the U.S. side, misleading intelligence and bureaucratic oversight created additional shortcomings. Eisenhower supported the coup plan because he wanted an inexpensive and effective way to impose a U.S.-friendly, anti-communist ruler as the head of Iran, a very important ally state. Mosaddeq, set on putting his people first, was not keen on bowing to U.S interests. In a memorandum of a meeting of the Foreign Ministers of the United States and the United Kingdom at the Department of State on January 9, 1952, the Secretary of State under President Truman, Dean Acheson, outlined what would continue to be Iran’s uncompromising attitude towards the U.S.:</p>
+                <p style="margin-left:10%; margin-right:10%;">Two American programs are in operation in that country: military aid and technical and economic assistance under the expanded Point IV program. While we are having difficulties regarding both programs, the one involving military aid is most disturbing. Under the military program, we are supplying Iran with equipment which its forces require, and are maintaining in that country Army and Gendarmérie Missions engaged in  training Iranians. Both aspects of the military program work together. The flow of military equipment makes the Iranians more willing to have our military missions in that country, which are very important from the points of view of maintaining the efficiency of the forces and of their morale. Prime Minister Mosadeq has refused to give assurances which are required by the Mutual Security Act in order to permit continuation of military shipments. The requirements of this legislation, as they apply to Iran, are not wise and increase our difficulties; nevertheless, the assurances are required and because of Dr. Mosadeq’s refusal to give them it has been necessary to suspend further military shipments, effective January 8. With the suspension of military assistance, the status of the military missions becomes precarious. Dr. Mosadeq has indicated that he does not want to extend the agreement under which they remain in Iran, and in the absence of such extension they would stay after March 20 only on  a day-to-day basis, which is not good from our point of view. (Raether & Sampson, 1989c)</p>
+                <p>However, U.S. intelligence overlooked two important details: that Mosaddeq, despite not being a liberal economic champion, was still very much not a communist, and that, despite his uncooperation , was still most likely the best option for leadership in Iran. The overall state of communism in Iran was outlined in a despatch from the Embassy in Iran to the Department of State on February 23, 1951: “The number of real Communists in Iran is comparatively very small . . . The [number] of Iranians who out of desperation induced by the unsatisfactory state of affairs look to or sympathize with the Tudeh Party is, on the other hand, very considerable. . . It is doubtful if Communism holds any real attraction for but a very limited number of Iranians. On the other hand, the country is in what might be called an embryonic revolutionary state and is groping for the means of doing something which it does not really yet comprehend. Communism does offer a vehicle under which the regime can be assailed and wrongs redressed” (Raether & Sampson, 1989a). While much of this may have been true, there was no definitive intelligence suggesting Mosaddeq himself was sympathetic with the communist views of the Tudeh party, and at the time of this despatch the Iranian leader (still a politician at the time) was extremely popular in his country. In regards to Mosaddeq’s leadership, the U.S. allowed itself to believe that an foreign-enforced regime change would be better and more stabilizing for Iran than letting Mosaddeq stay in power. This idea was drastically ill-advised, as Gordon explains, “If the U.S. experience in the region over the past seventy years is any guide, the prospect that external pressure – whether through economic isolation or covert or overt military intervention – can bring about the replacement of adversarial regimes in the region with more stable, friendly, and democratic ones is poor” (Gordon 2020, 6). The reasons used by the U.S. to justify the coup of Mosaddeq were founded not on objective and comprehensive intelligence but on views swayed by communist fears and convenient conclusions. Despite its notable reputation, the CIA is no stranger to such blunders. In his review of Legacy of Ashes by Tim Weiner in The New York Times on July 22, 2007, Evan Thomas writes, “The promise of a secret intelligence organization that could not only spy on America’s enemies but also influence events abroad, by sleight of hand and at relatively low cost, was just too alluring. When presidents finally faced the reality that the agency was bumbling, they could be bitter. Reviewing the C.I.A.’s record after his two terms in office, Dwight Eisenhower told the director, Allen Dulles, ‘I have suffered an eight-year defeat on this.’ He would ‘leave a legacy of ashes’ for his successor” (Thomas 2007).</p>
+                <p>Giving credit to the U.S., their intentions seemed to be for the better of both countries. Eisenhower never meant for knowledge of the operation to come out, which could have prevented the rise of harsh anti-American sentiment from the people of Iran. But Gordon frames the issue as, “ . . . not so much that we didn’t ‘get it right’ as that there isn’t always a ‘right’ way of getting it” (Gordon 2020, 10). He proposes that, because of their culture and religious and national fractures, regime change in Iran was just not a viable solution for what the U.S. wanted to achieve. While agreeing with this analyses, I contend that the issue stemmed from a lack of comprehensive intelligence and decision-making that was marred by quick judgement and anti-communist fears. Perhaps there was a third option besides action or inaction, or perhaps not intervening in Iran would have produced better outcomes, but we’ll never be sure because those routes were never properly considered. In the end, the U.S. and Middle East are still dealing with the consequences of the 1953 coup today. We may not be able to change the decisions made at the time, but hopefully it can serve as a valuable lesson for the future of foreign policy.</p>
+                <p>References</p>
+                <p> </p>
+                <p>Gordon, Philip H. 2020. Losing the Long Game: The False Promise of Regime Change in the Middle East. New York, New York: St. Martin’s Press.</p>
+                <p>Office of the Historian. 1989a. Edited by Carl N. Raether and Charles S. Sampson. Document 1. Vol. X, Iran, 1951–1954. Foreign Relations of the United States, 1952-1954. Washington, D.C.: Government Printing Office. https://history.state.gov/historicaldocuments/frus1951-54Iran/d1.</p>
+                <p>Office of the Historian. 1989b. Edited by Carl N. Raether and Charles S. Sampson. Document 26. Vol. Vol. X, Iran, 1951–1954. Foreign Relations of the United States, 1952-1954. Washington D.C.: Government Printing Office. https://history.state.gov/historicaldocuments/frus1952-54v10/d26.</p>
+                <p>Office of the Historian. 1989c. Edited by Carl N. Raether and Charles S. Sampson. Document 142. Vol. X, Iran, 1951–1954. Foreign Relations of the United States, 1952-1954. Washington, D.C.: Government Printing Office. https://history.state.gov/historicaldocuments/frus1952-54v10/d142.</p>
+                <p>Thomas, Evan. 2007. “Counter Intelligence.” The New York Times, July 22, 2007, sec. Books. https://www.nytimes.com/2007/07/22/books/review/Thomas-t.html.</p>
+              </article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+								<li><a href="https://twitter.com/loyarotfi" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/roya.lotfi" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="mailto: rlotfi288@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Roya Lotfi</a>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
