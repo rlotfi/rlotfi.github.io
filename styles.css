@@ -574,3 +574,36 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
     border-color: #6b7a5f;
     transform: scale(1.1);
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.popup.show {
+  display: block;
+  animation: fadeInOut 5s ease-in-out;
+}
+
+.popup .close-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
