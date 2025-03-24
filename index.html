@@ -10,6 +10,10 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
+    <div class="mobile-menu-button" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </div>
+    
     <nav id="nav">
         <a href="#home">Home</a>
         <a href="#services">Services</a>
@@ -215,7 +219,7 @@
                         <div class="course-links">
                             <a href="https://jpinyu.com/2022/09/05/a-brief-history-of-the-us-labor-movement/" target="_blank">A Brief History of the US Labor Movement</a>
                             <a href="https://jpinyu.com/2022/05/01/nato-expansion-is-still-an-option/" target="_blank">NATO Expansion is Still an Option</a>
-                            <a href="https://jpinyu.com/2022/09/25/perspective-the-everyday-oppression-of-irans-hijab-rule/" target="_blank">Perspective: The Everyday Oppression of Iran’s Hijab Rule</a>
+                            <a href="https://jpinyu.com/2022/09/25/perspective-the-everyday-oppression-of-irans-hijab-rule/" target="_blank">Perspective: The Everyday Oppression of Iran's Hijab Rule</a>
                             <a href="https://jpinyu.com/2021/10/18/the-pandora-papers-why-you-should-care/" target="_blank">The Pandora Papers: Why You Should Care</a>
                         </div>
                     </div>
@@ -241,7 +245,7 @@
             <h2>Get in Touch</h2>
             <p>Interested in working together? Fill out this form or send me an email and I'll be in touch shortly.</p>
             <div class="contact-form">
-                <form action="https://formsubmit.co/roya@royalotfi.com" method="POST">
+                <form id="contactForm" action="https://formsubmit.co/roya@royalotfi.com" method="POST">
                     <input type="hidden" name="_subject" value="New Portfolio Contact">
                     <input type="hidden" name="_next" value="https://rlotfi.github.io/">
                     <input type="hidden" name="_captcha" value="false">
@@ -265,6 +269,17 @@
 
     <div class="copyright">
         © All rights reserved Roya Lotfi 2025
+    </div>
+
+    <!-- Toast notification that will appear after form submission -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span>Thank you for reaching out!</span>
+        </div>
+        <button class="toast-close" aria-label="Close notification">
+            <i class="fas fa-times"></i>
+        </button>
     </div>
 
     <script>
@@ -377,6 +392,88 @@
         
         // Initial check
         updateSubnav();
+
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const nav = document.getElementById('nav');
+            
+            mobileMenuBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (window.getComputedStyle(nav).display === 'block') {
+                    nav.style.display = 'none';
+                    nav.classList.remove('show');
+                } else {
+                    nav.style.display = 'block';
+                    nav.classList.add('show');
+                }
+            });
+            
+            // Close menu when clicking a link
+            const navLinks = nav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (window.innerWidth <= 768) {
+                    if (!nav.contains(event.target) && event.target !== mobileMenuBtn) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                }
+            });
+        });
+
+        // Form submission and toast notification
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const toast = document.getElementById('toast');
+            const toastClose = document.querySelector('.toast-close');
+            
+            // Handle form submission
+            contactForm.addEventListener('submit', function(e) {
+                // The form will still submit normally,
+                // but we'll show the toast notification
+                
+                // Store form data in localStorage so we can check it after redirect
+                localStorage.setItem('formSubmitted', 'true');
+            });
+            
+            // Check if we need to show the toast (after form submission and redirect)
+            if (localStorage.getItem('formSubmitted') === 'true') {
+                // Show toast
+                showToast();
+                // Clear the flag
+                localStorage.removeItem('formSubmitted');
+            }
+            
+            // Function to show the toast
+            function showToast() {
+                toast.classList.add('show');
+                
+                // Hide toast after 5 seconds
+                setTimeout(function() {
+                    hideToast();
+                }, 5000);
+            }
+            
+            // Function to hide the toast
+            function hideToast() {
+                toast.classList.remove('show');
+            }
+            
+            // Close toast when clicking the X button
+            toastClose.addEventListener('click', function() {
+                hideToast();
+            });
+        });
     </script>
 </body>
 </html>
