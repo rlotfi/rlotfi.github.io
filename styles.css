@@ -712,6 +712,17 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
       transform: translateX(0);
     }
   }
+  
+  /* Make the main heading smaller on mobile */
+  #home h1 {
+    font-size: 2.5rem; /* Smaller size for mobile */
+    margin-bottom: 0.5rem; /* Adjust spacing */
+  }
+  
+  /* You might also want to adjust the subtitle size */
+  #home .subtitle {
+    font-size: 1.2rem;
+  }
 }
 
 /* Ensure desktop navigation displays correctly */
@@ -855,4 +866,13 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
         left: 20px;
         width: auto;
     }
+}
+
+/* Styling for education information */
+.education-info {
+    margin-top: 1.5rem;
+}
+
+.education-info p {
+    line-height: 1.6;
 }
