@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editing & Graphics | Roya Lotfi</title>
+    <link href="https://fonts.cdnfonts.com/css/anona" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="mobile-menu-button" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <nav id="nav">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#work">Work</a>
+        <div class="work-subnav">
+            <a href="index.html#video" class="subnav-item">Video</a>
+            <a href="index.html#social-media" class="subnav-item">Social Media</a>
+            <a href="index.html#podcast" class="subnav-item">Podcast</a>
+            <a href="index.html#design" class="subnav-item">Design</a>
+            <a href="index.html#writing" class="subnav-item">Writing</a>
+        </div>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section class="service-detail">
+            <a href="index.html#services" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <h1>Editing & Graphics</h1>
+            <div class="editing-graphics-grid">
+                <div class="editing-graphics-item">
+                    <h3>Custom Graphics</h3>
+                    <img src="Custom graphics.png" alt="Custom Graphics">
+                </div>
+                <div class="editing-graphics-item">
+                    <h3>Editor's Toolkit</h3>
+                    <img src="Editor's toolkit.png" alt="Editor's Toolkit">
+                </div>
+                <div class="editing-graphics-item tiktok-embed">
+                    <h3>TikTok Editing</h3>
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@whimsywalkup/video/7484398867853708590" data-video-id="7484398867853708590" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@whimsywalkup" href="https://www.tiktok.com/@whimsywalkup?refer=embed">@whimsywalkup</a> Yes, it's still on and yes, I love it!!  Who knew you could use static cling on kitchen appliances??  <a title="diy" target="_blank" href="https://www.tiktok.com/tag/diy?refer=embed">#diy</a> <a title="kitchenhacks" target="_blank" href="https://www.tiktok.com/tag/kitchenhacks?refer=embed">#kitchenhacks</a> <a title="kitchen" target="_blank" href="https://www.tiktok.com/tag/kitchen?refer=embed">#kitchen</a> <a title="nycapartment" target="_blank" href="https://www.tiktok.com/tag/nycapartment?refer=embed">#nycapartment</a> <a title="nycliving" target="_blank" href="https://www.tiktok.com/tag/nycliving?refer=embed">#nycliving</a> <a title="renterfriendly" target="_blank" href="https://www.tiktok.com/tag/renterfriendly?refer=embed">#renterfriendly</a> <a title="renterhacks" target="_blank" href="https://www.tiktok.com/tag/renterhacks?refer=embed">#renterhacks</a> <a title="colorfulhome" target="_blank" href="https://www.tiktok.com/tag/colorfulhome?refer=embed">#colorfulhome</a> <a title="kitchenrenovation" target="_blank" href="https://www.tiktok.com/tag/kitchenrenovation?refer=embed">#kitchenrenovation</a> <a title="windowcling" target="_blank" href="https://www.tiktok.com/tag/windowcling?refer=embed">#windowcling</a> <a target="_blank" title="♬ Ooh La La - Josie Dunne" href="https://www.tiktok.com/music/Ooh-La-La-6706436817605888001?refer=embed">♬ Ooh La La - Josie Dunne</a> </section> </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" class="social-button">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:roya@royalotfi.com" class="social-button">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <div class="copyright">
+        © All rights reserved Roya Lotfi 2025
+    </div>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const nav = document.getElementById('nav');
+            
+            mobileMenuBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (window.getComputedStyle(nav).display === 'block') {
+                    nav.style.display = 'none';
+                    nav.classList.remove('show');
+                } else {
+                    nav.style.display = 'block';
+                    nav.classList.add('show');
+                }
+            });
+            
+            // Close menu when clicking a link
+            const navLinks = nav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (window.innerWidth <= 768) {
+                    if (!nav.contains(event.target) && event.target !== mobileMenuBtn) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
