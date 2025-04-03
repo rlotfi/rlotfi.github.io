@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Script Writing | Roya Lotfi</title>
+    <link href="https://fonts.cdnfonts.com/css/anona" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="mobile-menu-button" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <nav id="nav">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#work">Work</a>
+        <div class="work-subnav">
+            <a href="index.html#video" class="subnav-item">Video</a>
+            <a href="index.html#social-media" class="subnav-item">Social Media</a>
+            <a href="index.html#podcast" class="subnav-item">Podcast</a>
+            <a href="index.html#design" class="subnav-item">Design</a>
+            <a href="index.html#writing" class="subnav-item">Writing</a>
+        </div>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section class="service-detail">
+            <a href="index.html#services" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <h1>Research & Script Writing</h1>
+            <div class="pdf-grid">
+                <div class="pdf-preview">
+                    <h3>Google Prompt Engineering Short Form Scripts</h3>
+                    <iframe src="Google Prompt Engineer Course Short Form Scripts.pdf" frameborder="0"></iframe>
+                </div>
+                <div class="pdf-preview">
+                    <h3>Google AI Studio YouTube Video Script</h3>
+                    <iframe src="Google AI Studio Script.pdf" frameborder="0"></iframe>
+                </div>
+                <div class="pdf-preview">
+                    <h3>Senator Mitch McConnell Interview Research</h3>
+                    <iframe src="Mitch McConnell Interview Research.docx.pdf" frameborder="0"></iframe>
+                </div>
+                <div class="pdf-preview">
+                    <h3>Israel PM Benjamin Netanyahu Research</h3>
+                    <iframe src="Netanyahu Research Doc.pdf" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" class="social-button">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:roya@royalotfi.com" class="social-button">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <div class="copyright">
+        © All rights reserved Roya Lotfi 2025
+    </div>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const nav = document.getElementById('nav');
+            
+            mobileMenuBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (window.getComputedStyle(nav).display === 'block') {
+                    nav.style.display = 'none';
+                    nav.classList.remove('show');
+                } else {
+                    nav.style.display = 'block';
+                    nav.classList.add('show');
+                }
+            });
+            
+            // Close menu when clicking a link
+            const navLinks = nav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (window.innerWidth <= 768) {
+                    if (!nav.contains(event.target) && event.target !== mobileMenuBtn) {
+                        nav.style.display = 'none';
+                        nav.classList.remove('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
