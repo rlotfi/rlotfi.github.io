@@ -6,9 +6,10 @@
 }
 
 body {
-    background-color: #fff;
-    color: #000000;
-    line-height: 1.6;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.7;
+    font-weight: 300;
 }
 
 #nav {
@@ -27,15 +28,18 @@ body {
 }
 
 #nav a {
-    color: #73777d;
+    color: #666;
     text-decoration: none;
     margin: 1rem 0;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
+    font-size: 0.95rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    letter-spacing: 0.5px;
 }
 
 #nav a:hover {
-    color: #000000;
+    color: #1a1a1a;
+    transform: translateX(5px);
 }
 
 .content {
@@ -110,6 +114,34 @@ section {
     .headshot {
         max-width: 280px;
     }
+    
+    .clients-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .client-item {
+        padding: 1.5rem;
+    }
+    
+    .client-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .client-social-links {
+        justify-content: center;
+    }
+    
+    .organizations-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .organization-item {
+        padding: 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -162,21 +194,27 @@ h2.animate {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #000000;
+    color: #1a1a1a;
+    font-weight: 200;
+    letter-spacing: -1px;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #000000;
+    color: #1a1a1a;
+    font-weight: 300;
+    letter-spacing: -0.5px;
 }
 
 .subtitle {
-    font-size: 1.5rem;
-    color: #869977;
+    font-size: 1.2rem;
+    color: #666;
     margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
 }
 
 .work-category {
@@ -215,15 +253,17 @@ h2 {
 .portfolio-item {
     background: #fff;
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+    transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
+    border: none;
 }
 
 .portfolio-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
 }
 
 .portfolio-item img {
@@ -235,15 +275,22 @@ h2 {
 }
 
 .portfolio-item h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 1rem 0 0.5rem 0;
-    color: #000000;
+    color: #1a1a1a;
+    font-weight: 500;
+    letter-spacing: -0.2px;
 }
 
 .portfolio-item h4 a {
-    color: #869977;
-    text-decoration: underline;
-    transition: color 0.3s ease;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.portfolio-item h4 a:hover {
+    border-bottom-color: #1a1a1a;
 }
 
 .portfolio-item h4 a:hover {
@@ -251,7 +298,8 @@ h2 {
 }
 
 .portfolio-item p {
-    color: #73777d;
+    color: #666;
+    font-weight: 300;
 }
 
 .contact-form {
@@ -270,18 +318,22 @@ input, textarea {
 }
 
 button {
-    background: #869977;
+    background: #1a1a1a;
     color: #fff;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background 0.3s ease;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    letter-spacing: 0.3px;
 }
 
 button:hover {
-    background: #6b7a5f;
+    background: #333;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .services-grid {
@@ -292,15 +344,15 @@ button:hover {
 }
 
 .service-item {
-    text-decoration: none;
-    color: inherit;
     display: block;
-    transition: transform 0.3s ease;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04);
 }
 
-.service-item:hover {
-    transform: translateY(-5px);
-}
+
 
 .service-image {
     width: 100%;
@@ -316,16 +368,264 @@ img[src="research.jpg"] {
 }
 
 .service-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    color: #869977;
-    text-decoration: underline;
+    color: #1a1a1a;
+    font-weight: 500;
+    letter-spacing: -0.2px;
 }
 
 .service-item p {
-    color: #73777d;
-    line-height: 1.6;
+    color: #666;
+    line-height: 1.7;
+    font-weight: 300;
 }
+
+/* Clients Section Styles */
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.client-item {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+}
+
+.client-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.client-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.client-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #869977;
+}
+
+.client-item h3 {
+    font-size: 1.4rem;
+    color: #1a1a1a;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+
+.client-item p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.client-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-embed {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    border: none;
+    letter-spacing: 0.3px;
+}
+
+.social-embed:hover {
+    background-color: #333;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.social-embed i {
+    font-size: 1.1rem;
+}
+
+.social-embed span {
+    font-weight: 500;
+}
+
+/* Local Organizations Section Styles */
+.organizations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.organization-item {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+}
+
+.organization-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.organization-item h3 {
+    font-size: 1.4rem;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+
+.organization-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.organization-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Ensure Instagram and TikTok embeds are responsive */
+.instagram-media,
+.tiktok-embed {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: auto !important;
+}
+
+/* Override embed inline styles */
+.organization-item .instagram-media,
+.organization-item .tiktok-embed {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: auto !important;
+    margin: 0 !important;
+}
+
+/* Section description and link styles */
+.section-description {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-link {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.section-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    border: none;
+    letter-spacing: 0.3px;
+}
+
+.section-button:hover {
+    background-color: #333;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Floating content block styles for Local Organizations and Everything Else */
+.floating-section {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.06);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.floating-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 35px rgba(0,0,0,0.1);
+}
+
+.floating-section h2 {
+    font-size: 2.5rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 0.75rem 0 !important;
+    font-weight: 300 !important;
+    letter-spacing: -0.5px !important;
+    text-decoration: underline !important;
+    text-decoration-color: #1a1a1a !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 8px !important;
+    opacity: 1 !important;
+    max-width: none !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    border-right: none !important;
+}
+
+.floating-section .section-description {
+    font-size: 1.1rem !important;
+    color: #666 !important;
+    margin: 0 !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+}
+
+/* Add spacing after floating section headers on dedicated pages */
+.floating-section + .organizations-grid,
+.floating-section + .work-category {
+    margin-top: 3rem;
+}
+
+
 
 .video-grid {
     display: grid;
