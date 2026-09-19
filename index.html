@@ -3,356 +3,669 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roya Lotfi | Video Producer</title>
-    <!-- <link href="https://fonts.cdnfonts.com/css/anona" rel="stylesheet"> -->
+    <title>Roya Lotfi | Video &amp; Social Media Producer</title>
+    <meta name="description" content="Roya Lotfi is a NYC-based video and social media producer helping creators and organizations grow with short-form strategy, production and editing.">
+    <meta property="og:title" content="Roya Lotfi | Video &amp; Social Media Producer">
+    <meta property="og:description" content="Case studies with Matt Wolfe, Baratunde Thurston, Tina Huang, GrowNYC and the Andrew Carnegie Foundation.">
+    <meta property="og:image" content="https://royalotfi.com/images/roya-welcome.jpg">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#faf9f6">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css?v=1.1">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css?v=2.4">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-    <div class="mobile-menu-button" id="mobileMenuBtn">
-        <i class="fas fa-bars"></i>
-    </div>
-    
-    <nav id="nav">
-        <a href="#home">Home</a>
-        <a href="#clients">Clients</a>
-        <a href="#services">Services</a>
-        <a href="#local-organizations">Local Organizations</a>
-        <a href="#everything-else">Everything Else</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="content">
-        <section id="home">
-            <div class="home-content">
-                <div class="home-text">
-                    <h1>Roya Lotfi</h1>
-                    <p class="subtitle">Video Producer & Endless Learner</p>
-                    <p>Welcome! I'm an experienced Social Media Producer based in NYC with experience in long-form (T.V. and YouTube) and short-form (Reels, Shorts and TikTok) video production, social media copywriting and audience analytics. 
-                    </p>
-                </div>
-                <div class="home-image">
-                    <img src="welcome.png" alt="Roya Lotfi" class="headshot">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">Roya Lotfi</a>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a href="#work">Case Studies</a>
+                <a href="#services">Services</a>
+                <a href="#more">More Work</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="nav-cta">Get in touch</a>
+            </nav>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-copy">
+                        <h1>Roya Lotfi</h1>
+                        <p class="hero-lede">Welcome! I'm an experienced Social Media Producer based in NYC with experience in long-form (TV and YouTube) and short-form (Reels, Shorts and TikTok) video production, social media copywriting and audience analytics.</p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary" href="#work">See case studies <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                        </div>
+                    </div>
+                    <figure class="hero-photo">
+                        <img src="images/roya-welcome.jpg" alt="Roya Lotfi" width="496" height="654">
+                    </figure>
                 </div>
             </div>
         </section>
 
-        <section id="clients">
-            <h2>My Clients</h2>
-            <div class="clients-grid">
-                <div class="client-item">
-                    <div class="client-header">
-                        <img src="tina_huang.jpg" alt="Tina Huang" class="client-image">
-                        <h3>Tina Huang</h3>
-                    </div>
-                    <p>Tina is a highly successful YouTube content creator with over 42 million total views.</p>
-                    <p>I manage and produce all aspects of Tina's social media presence, including YouTube production, Instagram, LinkedIn, TikTok and Threads.</p>
-                    <div class="client-social-links">
-                        <a href="https://www.youtube.com/tinahuang1" target="_blank" class="social-embed">
-                            <i class="fab fa-youtube"></i>
-                            <span>YouTube</span>
+        <!-- Case studies -->
+        <section class="section section-dark" id="work">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Case studies — <em>what I've built</em></h2>
+                    <p class="section-lede">Creators and organizations I've partnered with. Tap any project for the full story: the goal, what I did and the results.</p>
+                </div>
+
+                <div class="case-group">
+                    <h3 class="group-label">Creators</h3>
+                    <div class="case-grid" data-stagger>
+                        <a class="case-card" href="#case-tina-huang" data-case="case-tina-huang" aria-haspopup="dialog">
+                            <span class="case-open" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/tina-huang.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">Tina Huang</h4>
+                                <p class="profile-pill">YouTube creator</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="tina-huang.instagram">23.8K</strong><span>Instagram</span></li>
+                                <li><strong data-followers="tina-huang.youtube">1.31M</strong><span>YouTube</span></li>
+                            </ul>
                         </a>
-                        <a href="https://www.instagram.com/hellotinah/" target="_blank" class="social-embed">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
+
+                        <a class="case-card" href="#case-matt-wolfe" data-case="case-matt-wolfe" aria-haspopup="dialog">
+                            <span class="case-open" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/matt-wolfe.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">Matt Wolfe</h4>
+                                <p class="profile-pill">AI + Tech</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="matt-wolfe.instagram">48.5K</strong><span>Instagram</span></li>
+                                <li><strong data-followers="matt-wolfe.youtube">1.01M</strong><span>YouTube</span></li>
+                            </ul>
                         </a>
-                        <a href="https://www.linkedin.com/in/tinaw-h/" target="_blank" class="social-embed">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
+
+                        <a class="case-card" href="#case-baratunde-thurston" data-case="case-baratunde-thurston" aria-haspopup="dialog">
+                            <span class="case-open" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/baratunde-thurston.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">Baratunde Thurston</h4>
+                                <p class="profile-pill">Host + Writer</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="baratunde-thurston.instagram">213K</strong><span>Instagram</span></li>
+                            </ul>
                         </a>
                     </div>
                 </div>
 
-                <div class="client-item">
-                    <div class="client-header">
-                        <img src="matt_wolfe.jpg" alt="Matt Wolfe" class="client-image">
-                        <h3>Matt Wolfe</h3>
-                    </div>
-                    <p>Matt Wolfe is a well-known figure in the tech and AI space with a large social media following.</p>
-                    <p>I manage and produce all of his short form content (Reels, Shorts and TikTok) and social media copy (LinkedIn, X and Threads).</p>
-                    <div class="client-social-links">
-                        <a href="https://www.youtube.com/@mreflow" target="_blank" class="social-embed">
-                            <i class="fab fa-youtube"></i>
-                            <span>YouTube</span>
+                <div class="case-group">
+                    <h3 class="group-label">Organizations</h3>
+                    <div class="case-grid" data-stagger>
+                        <a class="case-card" href="#case-grownyc" data-case="case-grownyc" aria-haspopup="dialog">
+                            <span class="case-open" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/logo-grownyc.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">GrowNYC</h4>
+                                <p class="profile-pill">Nonprofit · NYC</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="grownyc.instagram">65.1K</strong><span>Instagram</span></li>
+                            </ul>
                         </a>
-                        <a href="https://www.instagram.com/mr.eflow/" target="_blank" class="social-embed">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
+
+                        <a class="case-card" href="#case-andrew-carnegie-foundation" data-case="case-andrew-carnegie-foundation" aria-haspopup="dialog">
+                            <span class="case-open" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/logo-andrew-carnegie-foundation.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">Andrew Carnegie Foundation</h4>
+                                <p class="profile-pill">Civic engagement</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="andrew-carnegie-foundation.instagram">13.1K</strong><span>Instagram</span></li>
+                            </ul>
                         </a>
-                        <a href="https://x.com/mreflow" target="_blank" class="social-embed">
-                            <i class="fab fa-x-twitter"></i>
-                            <span>X</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/matt-wolfe-30841712" target="_blank" class="social-embed">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
+
+                        <!-- TODO: A Starting Point — swap this for a linked tile + case study modal once details are in -->
+                        <div class="case-card">
+                            <span class="case-soon">Coming soon</span>
+                            <div class="profile">
+                                <img class="profile-photo" src="images/logo-a-starting-point.jpg" alt="" width="96" height="96" loading="lazy">
+                                <h4 class="profile-name">A Starting Point</h4>
+                                <p class="profile-pill">Political news</p>
+                            </div>
+                            <ul class="profile-stats" aria-label="Followers">
+                                <li><strong data-followers="a-starting-point.instagram">140K</strong><span>Instagram</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="client-item">
-                    <div class="client-header">
-                        <img src="baratunde_thurston.jpg" alt="Baratunde Thurston" class="client-image">
-                        <h3>Baratunde Thurston</h3>
-                    </div>
-                    <p>Baratunde Thurston is an Emmy-nominated host, writer and public speaker. He is the host of the interview podcast Life With Machines that explores the human impact of AI.</p>
-                    <p>I am managing the rebranding of Life With Machines on YouTube and all social platforms, including cross-posting, audience analytics and social media strategy.</p>
-                    <div class="client-social-links">
-                        <a href="https://www.youtube.com/@baratunde" target="_blank" class="social-embed">
-                            <i class="fab fa-youtube"></i>
-                            <span>YouTube</span>
-                        </a>
-                        <a href="https://www.instagram.com/baratunde/" target="_blank" class="social-embed">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </div>
-                </div>
+                <a class="work-cta reveal" href="#contact">
+                    <p><strong>Your project <em>next?</em></strong> I work with creators and mission-driven organizations on strategy, production and growth.</p>
+                    <span class="case-more">Let's talk <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                </a>
+            </div>
+        </section>
 
-                <div class="client-item">
-                    <div class="client-header">
-                        <img src="nbc_news.webp" alt="NBC News" class="client-image">
-                        <h3>NBC News</h3>
-                    </div>
-                    <p>I started my video production career working in live TV news on the historic show Meet the Press.</p>
-                    <div class="client-social-links">
-                        <a href="https://youtube.com/playlist?list=PL0tDb4jw6kPzyE27VRa8FyTt-RKK0SEI7&feature=shared" target="_blank" class="social-embed">
-                            <i class="fab fa-youtube"></i>
-                            <span>Playlist</span>
-                        </a>
-                        <a href="https://x.com/meetthepress" target="_blank" class="social-embed">
-                            <i class="fab fa-x-twitter"></i>
-                            <span>X</span>
-                        </a>
-                        <a href="https://www.instagram.com/kristen.welker/" target="_blank" class="social-embed">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </div>
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">What I do</p>
+                    <h2>Services</h2>
+                </div>
+                <div class="services-grid" data-stagger>
+                    <a class="service-card" href="video-producing.html">
+                        <div class="service-media">
+                            <img src="images/service-video.jpg" alt="" width="1100" height="619" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <h3>Video Producing</h3>
+                            <span class="service-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                    <a class="service-card" href="research-writing.html">
+                        <div class="service-media">
+                            <img class="pos-low" src="images/service-research.jpg" alt="" width="733" height="1100" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <h3>Research &amp; Script Writing</h3>
+                            <span class="service-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                    <a class="service-card" href="editing-graphics.html">
+                        <div class="service-media">
+                            <img src="images/service-editing.jpg" alt="" width="1100" height="734" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <h3>Editing &amp; Graphics</h3>
+                            <span class="service-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="services">
-            <h2>My Services</h2>
-            <div class="services-grid">
-                <div class="service-item">
-                    <img src="video.jpg" alt="Video Production Service" class="service-image">
-                    <h3>Video Producing</h3>
-                    <p>Full‑service video production from concept to upload. I will handle logistics, team coordination, cross-posting, and unlimited consultations on various topics such as viewer analytics, thumbnails, branding, etc. all while maintaining clear and prompt communication.</p>
+        <!-- More work -->
+        <section class="section" id="more">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Beyond the case studies</p>
+                    <h2>More work</h2>
                 </div>
-                <div class="service-item">
-                    <img src="research.jpg" alt="Research Service" class="service-image">
-                    <h3>Researching & Script Writing</h3>
-                    <p>Great social media content is backed by strong data and research. I will dive deep into your topic, audience, and competitors to craft clear, compelling scripts with attention‑grabbing hooks that match your tone and style.</p>
-                </div>
-                <div class="service-item">
-                    <img src="editing.jpg" alt="Editing Service" class="service-image">
-                    <h3>Editing & Graphics</h3>
-                    <p>It's not enough to just have a good script or idea, successful social media content also has to be visually appealing. I will transform your footage into scroll‑stopping, clickable content with fast‑paced edits, custom motion graphics, and captions/subtitles all tailored to match your brand and style.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="local-organizations">
-            <div class="floating-section">
-                <h2>Local Organizations</h2>
-                <p class="section-description">Small, local organizations that I've worked with professionally</p>
-                <div class="section-link">
-                    <a href="local-organizations.html" class="section-button">View All Organizations</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="everything-else">
-            <div class="floating-section">
-                <h2>Everything Else</h2>
-                <p class="section-description">Podcasts, graphic designs, and writing I've done or contributed to through the years</p>
-                <div class="section-link">
-                    <a href="everything-else.html" class="section-button">View All Work</a>
+                <div class="more-grid" data-stagger>
+                    <article class="more-card">
+                        <div class="more-icon"><img src="images/nbc-news.jpg" alt="" width="48" height="48" loading="lazy"></div>
+                        <p class="more-kicker">Where I started</p>
+                        <h3>NBC News · Meet the Press</h3>
+                        <p>I started my video production career working in live TV news on the historic show Meet the Press.</p>
+                        <div class="pill-links">
+                            <a class="pill" href="https://youtube.com/playlist?list=PL0tDb4jw6kPzyE27VRa8FyTt-RKK0SEI7&amp;feature=shared" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> Playlist</a>
+                            <a class="pill" href="https://x.com/meetthepress" target="_blank" rel="noopener"><i class="fab fa-x-twitter" aria-hidden="true"></i> X</a>
+                            <a class="pill" href="https://www.instagram.com/kristen.welker/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        </div>
+                    </article>
+                    <a class="more-card" href="local-organizations.html">
+                        <div class="more-icon"><i class="fas fa-location-dot" aria-hidden="true"></i></div>
+                        <p class="more-kicker">Community</p>
+                        <h3>Local Organizations</h3>
+                        <p>Small, local organizations that I've worked with professionally.</p>
+                        <span class="link-arrow">View organizations <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                    </a>
+                    <a class="more-card" href="everything-else.html">
+                        <div class="more-icon"><i class="fas fa-microphone-lines" aria-hidden="true"></i></div>
+                        <p class="more-kicker">Podcasts · Design · Writing</p>
+                        <h3>Everything Else</h3>
+                        <p>Podcasts, graphic designs, and writing I've done or contributed to through the years.</p>
+                        <span class="link-arrow">View all work <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I've always admired people who live diverse, storied lives — who have ripped apart the rulebook and followed a path of their own making. My career journey has routed me through various fields, including science, local and national politics, international relations and geopolitics, community building, journalism, live TV news, tech and AI, and now freelance video production Throughout it all my mission never changed: to inform the public on what matters.</p>
-            <p>Most traditional corporations would find fault in my nonlinear background. If you're someone who sees the value in learning every day, adjusting to new challenges, thinking on your feet, never settling for mediocrity, and above all, making cool and impactful content, then I'd be thrilled to work together.</p>
-            
-            <div class="education-info">
-                <p><strong>Education:</strong><br>
-                BS, Biology, Montclair State University<br>
-                MA, International Relations, U.S. Foreign Policy & Media, New York University</p>
-            </div>
-            
-            <div class="about-image">
-                <img src="aboutme.png" alt="About Me" class="about-photo">
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div class="about-copy reveal">
+                    <div class="section-head">
+                        <h2>About me</h2>
+                    </div>
+                    <p>I've always admired people who live diverse, storied lives — who have ripped apart the rulebook and followed a path of their own making. My career journey has routed me through various fields, including science, local and national politics, international relations and geopolitics, community building, journalism, live TV news, tech and AI, and now freelance video production. Throughout it all my mission never changed: to inform the public on what matters.</p>
+                    <p>Most traditional corporations would find fault in my nonlinear background. If you're someone who sees the value in learning every day, adjusting to new challenges, thinking on your feet, never settling for mediocrity, and above all, making cool and impactful content, then I'd be thrilled to work together.</p>
+                </div>
+                <figure class="about-photo reveal">
+                    <img src="images/roya-nbc.jpg" alt="Roya Lotfi on screen in the NBC News Washington, D.C. newsroom" width="1400" height="1044" loading="lazy">
+                </figure>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Interested in working together? Fill out this form or send me an email and I'll be in touch shortly.</p>
-            <div class="contact-form">
-                <form id="contactForm" action="https://formsubmit.co/roya@royalotfi.com" method="POST">
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container contact-grid">
+                <div class="reveal">
+                    <div class="section-head">
+                        <p class="eyebrow">Contact</p>
+                        <h2>Let's make something <em>worth watching</em></h2>
+                        <p class="section-lede">Interested in working together? Fill out this form or send me an email and I'll be in touch shortly.</p>
+                    </div>
+                    <div class="link-list">
+                        <a class="link-card" href="mailto:roya@royalotfi.com">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>roya@royalotfi.com<small>Email</small></span>
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <a class="link-card" href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span>Roya Lotfi<small>LinkedIn</small></span>
+                            <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/roya@royalotfi.com" method="POST">
                     <input type="hidden" name="_subject" value="New Portfolio Contact">
-                    <input type="hidden" name="_next" value="https://rlotfi.github.io/">
+                    <input type="hidden" name="_next" value="https://royalotfi.com/?sent=1#contact">
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="text" name="full name" placeholder="Full Name *" required>
-                    <input type="email" name="email" placeholder="Email *" required>
-                    <textarea name="message" rows="5" placeholder="Your Message *" required></textarea>
-                    <button type="submit">Send Message</button>
+                    <div class="field">
+                        <label for="cf-name">Full name *</label>
+                        <input id="cf-name" type="text" name="full name" autocomplete="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="cf-email">Email *</label>
+                        <input id="cf-email" type="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="cf-message">Message *</label>
+                        <textarea id="cf-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Send message <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
                 </form>
             </div>
         </section>
-    </div>
+    </main>
 
-    <div class="social-buttons">
-        <a href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" class="social-button">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:roya@royalotfi.com" class="social-button">
-            <i class="fas fa-envelope"></i>
-        </a>
-    </div>
-
-    <div class="copyright">
-        © All rights reserved Roya Lotfi 2025
-    </div>
-
-    <!-- Toast notification that will appear after form submission -->
-    <div id="toast" class="toast">
-        <div class="toast-content">
-            <i class="fas fa-check-circle"></i>
-            <span>Thank you for reaching out!</span>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Roya Lotfi. All rights reserved.</p>
+            <div class="footer-links">
+                <a class="icon-btn" href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a class="icon-btn" href="mailto:roya@royalotfi.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            </div>
         </div>
-        <button class="toast-close" aria-label="Close notification">
-            <i class="fas fa-times"></i>
-        </button>
+    </footer>
+
+    <!-- ===================================================================
+         Case study modals
+         =================================================================== -->
+
+    <!-- Tina Huang -->
+    <dialog class="case-modal t-sage" id="case-tina-huang" aria-labelledby="case-tina-huang-title">
+        <div class="modal-bar"><button class="modal-close" type="button" aria-label="Close case study"><i class="fas fa-xmark" aria-hidden="true"></i></button></div>
+        <header class="modal-hero">
+            <div class="case-id">
+                <img class="case-avatar" src="images/tina-huang.jpg" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="case-meta">Creator · YouTube</p>
+                    <h3 class="modal-title" id="case-tina-huang-title">Tina Huang</h3>
+                </div>
+            </div>
+            <ul class="modal-stats">
+                <li><strong>From scratch</strong><span>Instagram presence rebuilt</span></li>
+                <li><strong>2 platforms</strong><span>Instagram + YouTube</span></li>
+                <li><strong>Idea → publish</strong><span>End-to-end short-form production</span></li>
+            </ul>
+        </header>
+        <div class="modal-body">
+            <div class="story">
+                <section>
+                    <h4 class="modal-label">The goal</h4>
+                    <p>Build Tina's Instagram presence from scratch while strengthening her YouTube content strategy and production.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">What I did</h4>
+                    <p>Tina was locked out of her Instagram account and hadn't posted in months. I developed a new short-form content strategy, which included coming up with content ideas, scripting, editing, publishing, and ongoing optimization. I also supported her YouTube channel through video ideation, outlining, production management, and content strategy.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">The impact</h4>
+                    <p>Created a consistent, scalable content system designed to grow Tina's audience across platforms while allowing her to focus on creating.</p>
+                </section>
+            </div>
+            <aside class="modal-aside">
+                <div>
+                    <h4 class="modal-label">Services</h4>
+                    <ul class="tag-list">
+                        <li>Social Media Strategy</li>
+                        <li>Short-Form Video Production</li>
+                        <li>Video Editing</li>
+                        <li>Scriptwriting</li>
+                        <li>YouTube Strategy</li>
+                        <li>Production Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="modal-label">Channels</h4>
+                    <div class="pill-links">
+                        <a class="pill" href="https://www.youtube.com/tinahuang1" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a>
+                        <a class="pill" href="https://www.instagram.com/hellotinah/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        <a class="pill" href="https://www.linkedin.com/in/tinaw-h/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="examples">
+                <h4 class="modal-label">Example videos</h4>
+                <div class="embed-row">
+                    <a class="ig-embed" href="https://www.instagram.com/p/DMVs0KVgFLc/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DNk5MQfgNVu/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DOgK5C-gH4S/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                </div>
+            </section>
+        </div>
+    </dialog>
+
+    <!-- Matt Wolfe -->
+    <dialog class="case-modal t-slate" id="case-matt-wolfe" aria-labelledby="case-matt-wolfe-title">
+        <div class="modal-bar"><button class="modal-close" type="button" aria-label="Close case study"><i class="fas fa-xmark" aria-hidden="true"></i></button></div>
+        <header class="modal-hero">
+            <div class="case-id">
+                <img class="case-avatar" src="images/matt-wolfe.jpg" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="case-meta">Creator · AI &amp; Tech</p>
+                    <h3 class="modal-title" id="case-matt-wolfe-title">Matt Wolfe</h3>
+                </div>
+            </div>
+            <ul class="modal-stats">
+                <li><strong>15K → 45K</strong><span>Instagram followers</span></li>
+                <li><strong>5K → 11.5K</strong><span>LinkedIn followers</span></li>
+                <li><strong>4 platforms</strong><span>Instagram, YouTube Shorts, TikTok, LinkedIn</span></li>
+            </ul>
+        </header>
+        <div class="modal-body">
+            <div class="story">
+                <section>
+                    <h4 class="modal-label">The goal</h4>
+                    <p>Scale Matt's social media presence across Instagram, YouTube Shorts, TikTok, and LinkedIn and manage his growing roster of brand partnerships.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">What I did</h4>
+                    <p>I manage Matt's day-to-day content operations—from full-scale short-form video production and growth to cross-posting his messaging and creating social graphics. I also oversee partnerships and sponsorships, including ad copy, scheduling, communication, and publishing.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">The impact</h4>
+                    <p>Grew Instagram from 15K to 45K followers and LinkedIn from 5K to 11.5K followers, while building a streamlined production and sponsorship operation across platforms.</p>
+                </section>
+            </div>
+            <aside class="modal-aside">
+                <div>
+                    <h4 class="modal-label">Services</h4>
+                    <ul class="tag-list">
+                        <li>Social Media Strategy</li>
+                        <li>Short-Form Video Production</li>
+                        <li>Content Operations</li>
+                        <li>Video Editing</li>
+                        <li>Partnerships &amp; Sponsorships</li>
+                        <li>Cross-Platform Growth</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="modal-label">Channels</h4>
+                    <div class="pill-links">
+                        <a class="pill" href="https://www.youtube.com/@mreflow" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a>
+                        <a class="pill" href="https://www.instagram.com/mr.eflow/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        <a class="pill" href="https://x.com/mreflow" target="_blank" rel="noopener"><i class="fab fa-x-twitter" aria-hidden="true"></i> X</a>
+                        <a class="pill" href="https://www.linkedin.com/in/matt-wolfe-30841712" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="examples">
+                <h4 class="modal-label">Example videos</h4>
+                <div class="embed-row">
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DYj6ipGFFvb/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DcZpxwhR7zG/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DaqGmSuER_T/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                </div>
+            </section>
+            <section class="examples">
+                <h4 class="modal-label">Example graphics</h4>
+                <div class="embed-row">
+                    <a class="ig-embed" href="https://www.instagram.com/p/DOwaTJokqLf/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DLbJpUmIIkY/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DQ5H8GOkiIm/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                </div>
+            </section>
+            <section class="examples">
+                <h4 class="modal-label">Example LinkedIn posts</h4>
+                <div class="link-list">
+                    <a class="link-card" href="https://www.linkedin.com/posts/matt-wolfe-30841712_this-is-actually-worrying-it-seems-like-share-7368976359349547008-Ns1i/" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span>“This is actually worrying…”<small>LinkedIn post</small></span>
+                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                    <a class="link-card" href="https://www.linkedin.com/posts/matt-wolfe-30841712_have-you-heard-about-the-piss-filter-share-7363669584270245889-wvXE/" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span>“Have you heard about the piss filter?”<small>LinkedIn post</small></span>
+                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                    <a class="link-card" href="https://www.linkedin.com/posts/matt-wolfe-30841712_would-you-let-chatgpt-track-all-your-browsing-activity-7497663653735714816-xTGQ" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span>“Would you let ChatGPT track all your browsing activity?”<small>LinkedIn post</small></span>
+                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </dialog>
+
+    <!-- Baratunde Thurston -->
+    <dialog class="case-modal t-clay" id="case-baratunde-thurston" aria-labelledby="case-baratunde-thurston-title">
+        <div class="modal-bar"><button class="modal-close" type="button" aria-label="Close case study"><i class="fas fa-xmark" aria-hidden="true"></i></button></div>
+        <header class="modal-hero">
+            <div class="case-id">
+                <img class="case-avatar" src="images/baratunde-thurston.jpg" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="case-meta">Creator · Host &amp; Writer</p>
+                    <h3 class="modal-title" id="case-baratunde-thurston-title">Baratunde Thurston</h3>
+                </div>
+            </div>
+            <ul class="modal-stats">
+                <li><strong>156K → 209K</strong><span>Instagram followers</span></li>
+                <li><strong>6.5K → 28.5K</strong><span>Average views</span></li>
+            </ul>
+        </header>
+        <div class="modal-body">
+            <div class="story">
+                <section>
+                    <h4 class="modal-label">The goal</h4>
+                    <p>Develop a growth-focused Instagram strategy and create a more consistent, engaging content operation.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">What I did</h4>
+                    <p>Baratunde had built an impressive audience, but that audience had become disengaged as his content shifted through the years. I developed new series and content ideas that re-engaged his current audience while also finding a new one. I manage the entire production process with a focus on Instagram-specific growth and performance.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">The impact</h4>
+                    <p>Grew Instagram from 156K → 209K followers, while increasing average views from 6.5K → 28.5K.</p>
+                </section>
+            </div>
+            <aside class="modal-aside">
+                <div>
+                    <h4 class="modal-label">Services</h4>
+                    <ul class="tag-list">
+                        <li>Instagram Strategy</li>
+                        <li>Short-Form Video Production</li>
+                        <li>Video Editing</li>
+                        <li>Content Development</li>
+                        <li>Production Management</li>
+                        <li>Audience Growth</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="modal-label">Channels</h4>
+                    <div class="pill-links">
+                        <a class="pill" href="https://www.instagram.com/baratunde/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        <a class="pill" href="https://www.youtube.com/@baratunde" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="examples">
+                <h4 class="modal-label">Example videos</h4>
+                <div class="embed-row">
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DbHAuIlRL4a/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DakruxDxiXP/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/reel/DZ5VP2IRWWk/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                </div>
+            </section>
+        </div>
+    </dialog>
+
+    <!-- GrowNYC -->
+    <dialog class="case-modal t-green" id="case-grownyc" aria-labelledby="case-grownyc-title">
+        <div class="modal-bar"><button class="modal-close" type="button" aria-label="Close case study"><i class="fas fa-xmark" aria-hidden="true"></i></button></div>
+        <header class="modal-hero">
+            <div class="case-id">
+                <img class="case-avatar" src="images/logo-grownyc.jpg" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="case-meta">Nonprofit · New York City</p>
+                    <h3 class="modal-title" id="case-grownyc-title">GrowNYC</h3>
+                </div>
+            </div>
+            <ul class="modal-stats">
+                <li><strong>6-part</strong><span>PSA video series</span></li>
+                <li><strong>Concept → post</strong><span>Full production</span></li>
+                <li><strong>Social-first</strong><span>Built for short-form feeds</span></li>
+            </ul>
+        </header>
+        <div class="modal-body">
+            <div class="story">
+                <section>
+                    <h4 class="modal-label">The goal</h4>
+                    <p>Create a short-form video series that makes GrowNYC's programs, services, and benefits more accessible and engaging for New Yorkers.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">What I did</h4>
+                    <p>Produced a 6-part PSA series, developing the videos from concept through production and post-production. The series translated GrowNYC's resources into clear, engaging social-first content.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">The impact</h4>
+                    <p>Turned complex information about GrowNYC's programs into approachable, shareable videos designed to reach and educate a broader audience.</p>
+                </section>
+            </div>
+            <aside class="modal-aside">
+                <div>
+                    <h4 class="modal-label">Services</h4>
+                    <ul class="tag-list">
+                        <li>Short-Form Video Production</li>
+                        <li>Video Editing</li>
+                        <li>Series Development</li>
+                        <li>Social Strategy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="modal-label">Channels</h4>
+                    <div class="pill-links">
+                        <a class="pill" href="https://www.instagram.com/grownyc/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        <a class="pill" href="https://www.grownyc.org/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="examples">
+                <h4 class="modal-label">The series</h4>
+                <div class="link-list">
+                    <a class="link-card" href="https://www.dropbox.com/scl/fo/p7pg9cridrndh4afszbie/AHECyVUwSAbdz_ar8-riVkc?rlkey=rph7au0l9kcvbr7pvai1oltjg&amp;st=ptf5723j&amp;dl=0" target="_blank" rel="noopener">
+                        <i class="fas fa-circle-play" aria-hidden="true"></i>
+                        <span>Watch all 6 PSA videos<small>Dropbox</small></span>
+                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </dialog>
+
+    <!-- Andrew Carnegie Foundation -->
+    <dialog class="case-modal t-plum" id="case-andrew-carnegie-foundation" aria-labelledby="case-andrew-carnegie-foundation-title">
+        <div class="modal-bar"><button class="modal-close" type="button" aria-label="Close case study"><i class="fas fa-xmark" aria-hidden="true"></i></button></div>
+        <header class="modal-hero">
+            <div class="case-id">
+                <img class="case-avatar" src="images/logo-andrew-carnegie-foundation.jpg" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="case-meta">Foundation · Civic engagement</p>
+                    <h3 class="modal-title" id="case-andrew-carnegie-foundation-title">Andrew Carnegie Foundation</h3>
+                </div>
+            </div>
+            <ul class="modal-stats">
+                <li><strong>6-part</strong><span>Social video series</span></li>
+                <li><strong>Concept → post</strong><span>Scripting through post-production</span></li>
+                <li><strong>Youth</strong><span>Civic engagement audience</span></li>
+            </ul>
+        </header>
+        <div class="modal-body">
+            <div class="story">
+                <section>
+                    <h4 class="modal-label">The goal</h4>
+                    <p>Create a short-form video series that introduces young people to civic engagement and encourages them to become more active participants in their communities.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">What I did</h4>
+                    <p>Produced a 6-part social video series centered on Carnegie's youth civic engagement program, taking the project from concept and scripting through production and post-production.</p>
+                </section>
+                <section>
+                    <h4 class="modal-label">The impact</h4>
+                    <p>Translated the program's messaging into accessible, social-first storytelling designed to connect with younger audiences and make civic participation feel relevant and approachable.</p>
+                </section>
+            </div>
+            <aside class="modal-aside">
+                <div>
+                    <h4 class="modal-label">Services</h4>
+                    <ul class="tag-list">
+                        <li>Series Development</li>
+                        <li>Scriptwriting</li>
+                        <li>Short-Form Video Production</li>
+                        <li>Social Strategy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="modal-label">Read more</h4>
+                    <div class="link-list">
+                        <a class="link-card" href="https://carnegie.org/article/diy-civics-with-baratunde-thurston/" target="_blank" rel="noopener">
+                            <i class="fas fa-newspaper" aria-hidden="true"></i>
+                            <span>DIY Civics with Baratunde Thurston<small>carnegie.org</small></span>
+                            <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+            <section class="examples">
+                <h4 class="modal-label">The series</h4>
+                <div class="embed-row">
+                    <a class="ig-embed" href="https://www.instagram.com/p/Da017GGBJYw/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DaiknpkExGw/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DaQhYtquY9s/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DZ-0Havjmh2/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DZsqTfzAZqi/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                    <a class="ig-embed" href="https://www.instagram.com/p/DZqG3Hcszdt/" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i> View on Instagram</a>
+                </div>
+            </section>
+        </div>
+    </dialog>
+
+    <!-- Toast shown after the contact form redirects back -->
+    <div id="toast" class="toast" role="status" aria-live="polite">
+        <div class="toast-content">
+            <i class="fas fa-circle-check" aria-hidden="true"></i>
+            <span>Thanks for reaching out! I'll be in touch soon.</span>
+        </div>
+        <button class="toast-close" type="button" aria-label="Close notification"><i class="fas fa-xmark" aria-hidden="true"></i></button>
     </div>
 
-    <script>
-        // Intersection Observer for typewriter animation
-        const typewriterObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                    // Only trigger animation once
-                    typewriterObserver.unobserve(entry.target);
-                }
-            });
-        }, {
-            threshold: 0.1 // Trigger when at least 10% of the element is visible
-        });
-
-        // Observe all h1 and h2 elements for typewriter effect
-        document.addEventListener('DOMContentLoaded', () => {
-            const headings = document.querySelectorAll('h1, h2');
-            headings.forEach(heading => typewriterObserver.observe(heading));
-        });
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                
-                if (targetElement) {
-                    const offset = 80;
-                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Mobile menu functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const nav = document.getElementById('nav');
-            
-            mobileMenuBtn.addEventListener('click', function(e) {
-                e.stopPropagation();
-                if (window.getComputedStyle(nav).display === 'block') {
-                    nav.style.display = 'none';
-                    nav.classList.remove('show');
-                } else {
-                    nav.style.display = 'block';
-                    nav.classList.add('show');
-                }
-            });
-            
-            // Close menu when clicking a link
-            const navLinks = nav.querySelectorAll('a');
-            navLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    if (window.innerWidth <= 768) {
-                        nav.style.display = 'none';
-                        nav.classList.remove('show');
-                    }
-                });
-            });
-            
-            // Close menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (window.innerWidth <= 768) {
-                    if (!nav.contains(event.target) && event.target !== mobileMenuBtn) {
-                        nav.style.display = 'none';
-                        nav.classList.remove('show');
-                    }
-                }
-            });
-        });
-
-        // Form submission and toast notification
-        document.addEventListener('DOMContentLoaded', function() {
-            const contactForm = document.getElementById('contactForm');
-            const toast = document.getElementById('toast');
-            const toastClose = document.querySelector('.toast-close');
-            
-            // Handle form submission
-            contactForm.addEventListener('submit', function(e) {
-                // The form will still submit normally,
-                // but we'll show the toast notification
-                
-                // Store form data in localStorage so we can check it after redirect
-                localStorage.setItem('formSubmitted', 'true');
-            });
-            
-            // Check if we need to show the toast (after form submission and redirect)
-            if (localStorage.getItem('formSubmitted') === 'true') {
-                // Show toast
-                showToast();
-                // Clear the flag
-                localStorage.removeItem('formSubmitted');
-            }
-            
-            // Function to show the toast
-            function showToast() {
-                toast.classList.add('show');
-                
-                // Hide toast after 5 seconds
-                setTimeout(function() {
-                    hideToast();
-                }, 5000);
-            }
-            
-            // Function to hide the toast
-            function hideToast() {
-                toast.classList.remove('show');
-            }
-            
-            // Close toast when clicking the X button
-            toastClose.addEventListener('click', function() {
-                hideToast();
-            });
-        });
-    </script>
+    <script src="script.js?v=2.4" defer></script>
 </body>
 </html>

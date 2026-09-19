@@ -4,109 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Producing | Roya Lotfi</title>
-    <!-- <link href="https://fonts.cdnfonts.com/css/anona" rel="stylesheet"> -->
+    <meta name="description" content="Examples of Roya Lotfi's video production systems: analytics tracking, content calendars, production workflows and thumbnail testing.">
+    <meta name="theme-color" content="#faf9f6">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css?v=1.1">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css?v=2.4">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-    <div class="mobile-menu-button" id="mobileMenuBtn">
-        <i class="fas fa-bars"></i>
-    </div>
-    
-    <nav id="nav">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#work">Work</a>
-        <div class="work-subnav">
-            <a href="index.html#video" class="subnav-item">Video</a>
-            <a href="index.html#social-media" class="subnav-item">Social Media</a>
-            <a href="index.html#podcast" class="subnav-item">Podcast</a>
-            <a href="index.html#design" class="subnav-item">Design</a>
-            <a href="index.html#writing" class="subnav-item">Writing</a>
-        </div>
-        <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="content">
-        <section class="service-detail">
-            <a href="index.html#services" class="back-button">
-                <i class="fas fa-arrow-left"></i> Back to Services
-            </a>
-            <h1>Video Producing</h1>
-            <div class="video-production-grid">
-                <div class="production-image">
-                    <h3>YouTube Analytics Tracking</h3>
-                    <img src="analytics data.png" alt="Analytics Data">
-                </div>
-                <div class="production-image">
-                    <h3>Content Calendar</h3>
-                    <img src="content calendar.png" alt="Content Calendar">
-                </div>
-                <div class="production-image">
-                    <h3>Custom Production Workflow</h3>
-                    <img src="production workflow.png" alt="Production Workflow">
-                </div>
-                <div class="production-image">
-                    <h3>Thumbnail Testing</h3>
-                    <img src="thumbnail testing.png" alt="Thumbnail Testing">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Roya Lotfi</a>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a href="index.html#work">Case Studies</a>
+                <a href="index.html#services" class="is-active">Services</a>
+                <a href="index.html#more">More Work</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact" class="nav-cta">Get in touch</a>
+            </nav>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <a class="back-link" href="index.html#services"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back to services</a>
+                <p class="eyebrow">Service</p>
+                <h1>Video <em>Producing</em></h1>
+                <p class="section-lede">A look at the systems behind my productions, from analytics and planning to packaging.</p>
+            </div>
+        </section>
+
+        <section class="page-body">
+            <div class="container">
+                <div class="gallery" data-stagger>
+                    <figure class="panel">
+                        <figcaption class="panel-head"><h3>YouTube Analytics Tracking</h3></figcaption>
+                        <a class="panel-media" href="images/analytics-data.jpg" target="_blank" rel="noopener"><img src="images/analytics-data.jpg" alt="YouTube analytics tracking spreadsheet" width="2000" height="1125" loading="lazy"></a>
+                    </figure>
+                    <figure class="panel">
+                        <figcaption class="panel-head"><h3>Content Calendar</h3></figcaption>
+                        <a class="panel-media" href="images/content-calendar.jpg" target="_blank" rel="noopener"><img src="images/content-calendar.jpg" alt="Content calendar" width="2000" height="1125" loading="lazy"></a>
+                    </figure>
+                    <figure class="panel">
+                        <figcaption class="panel-head"><h3>Custom Production Workflow</h3></figcaption>
+                        <a class="panel-media" href="images/production-workflow.jpg" target="_blank" rel="noopener"><img src="images/production-workflow.jpg" alt="YouTube and social production workflow board" width="2000" height="1125" loading="lazy"></a>
+                    </figure>
+                    <figure class="panel">
+                        <figcaption class="panel-head"><h3>Thumbnail Testing</h3></figcaption>
+                        <a class="panel-media" href="images/thumbnail-testing.jpg" target="_blank" rel="noopener"><img src="images/thumbnail-testing.jpg" alt="Thumbnail A/B testing results" width="2000" height="824" loading="lazy"></a>
+                    </figure>
                 </div>
             </div>
         </section>
-    </div>
+    </main>
 
-    <div class="social-buttons">
-        <a href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" class="social-button">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:roya@royalotfi.com" class="social-button">
-            <i class="fas fa-envelope"></i>
-        </a>
-    </div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Roya Lotfi. All rights reserved.</p>
+            <div class="footer-links">
+                <a class="icon-btn" href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a class="icon-btn" href="mailto:roya@royalotfi.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
 
-    <div class="copyright">
-        © All rights reserved Roya Lotfi 2025
-    </div>
-
-    <script>
-        // Mobile menu functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const nav = document.getElementById('nav');
-            
-            mobileMenuBtn.addEventListener('click', function(e) {
-                e.stopPropagation();
-                if (window.getComputedStyle(nav).display === 'block') {
-                    nav.style.display = 'none';
-                    nav.classList.remove('show');
-                } else {
-                    nav.style.display = 'block';
-                    nav.classList.add('show');
-                }
-            });
-            
-            // Close menu when clicking a link
-            const navLinks = nav.querySelectorAll('a');
-            navLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    if (window.innerWidth <= 768) {
-                        nav.style.display = 'none';
-                        nav.classList.remove('show');
-                    }
-                });
-            });
-            
-            // Close menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (window.innerWidth <= 768) {
-                    if (!nav.contains(event.target) && event.target !== mobileMenuBtn) {
-                        nav.style.display = 'none';
-                        nav.classList.remove('show');
-                    }
-                }
-            });
-        });
-    </script>
+    <script src="script.js?v=2.4" defer></script>
 </body>
-</html> 
+</html>
