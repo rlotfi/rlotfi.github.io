@@ -4,122 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everything Else | Roya Lotfi</title>
-    <!-- <link href="https://fonts.cdnfonts.com/css/anona" rel="stylesheet"> -->
+    <meta name="description" content="Podcasts, graphic design and writing by Roya Lotfi.">
+    <meta name="theme-color" content="#faf9f6">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css?v=1.1">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css?v=2.4">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-    <div class="mobile-menu-button" id="mobileMenuBtn">
-        <i class="fas fa-bars"></i>
-    </div>
-    
-    <nav id="nav">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#clients">Clients</a>
-        <a href="index.html#services">Services</a>
-        <a href="local-organizations.html">Local Organizations</a>
-        <a href="everything-else.html">Everything Else</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="content">
-        <section id="everything-else">
-            <div class="floating-section">
-                <h2>Everything Else</h2>
-                <p class="section-description">Podcasts, graphic designs, and writing I've done or contributed to through the years</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Roya Lotfi</a>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a href="index.html#work">Case Studies</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#more" class="is-active">More Work</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact" class="nav-cta">Get in touch</a>
+            </nav>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <a class="back-link" href="index.html#more"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back to more work</a>
+                <p class="eyebrow">Podcasts · Design · Writing</p>
+                <h1>Everything <em>Else</em></h1>
+                <p class="section-lede">Podcasts, graphic designs, and writing I've done or contributed to through the years.</p>
             </div>
-            
-            <div id="podcast" class="work-category">
-                <h3>Podcast</h3>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <h4><a href="https://open.spotify.com/show/5GmIATUu0vE1A2Eqzlg0OD?si=aa1a8fefea2046bf" target="_blank">NBCUniversal | The Chuck ToddCast</a></h4>
-                        <p>Part of the production team for Chuck Todd's political analysis podcast from January to April 2024. Contributed to research, production, and editing of episodes covering critical developments in American politics and international affairs.</p>
-                        <div class="website-preview">
-                            <iframe src="https://open.spotify.com/embed/show/5GmIATUu0vE1A2Eqzlg0OD" title="The Chuck ToddCast on Spotify" loading="lazy" allow="encrypted-media"></iframe>
+        </section>
+
+        <section class="page-body">
+            <div class="container">
+                <div class="subsection" id="podcast">
+                    <h2 class="subsection-title">Podcast</h2>
+                    <div class="gallery" data-stagger>
+                        <div class="panel">
+                            <div class="panel-head">
+                                <h3><a href="https://open.spotify.com/show/5GmIATUu0vE1A2Eqzlg0OD?si=aa1a8fefea2046bf" target="_blank" rel="noopener">NBCUniversal | The Chuck ToddCast</a></h3>
+                                <p>Part of the production team for Chuck Todd's political analysis podcast from January to April 2024. Contributed to research, production, and editing of episodes covering critical developments in American politics and international affairs.</p>
+                            </div>
+                            <iframe class="podcast-frame" src="https://open.spotify.com/embed/show/5GmIATUu0vE1A2Eqzlg0OD" title="The Chuck ToddCast on Spotify" loading="lazy" allow="encrypted-media"></iframe>
                         </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <h4><a href="https://jpinyu.com/category/multimedia/" target="_blank">NYU | Faculty Insights Podcast</a></h4>
-                        <p>Created, produced, interviewed, coordinated, and edited an informative podcast series featuring NYU faculty experts as the Editor-in-Chief of the NYU Journal of Political Inquiry. Notable episodes include:</p>
-                        <div class="website-preview">
-                            <img src="JPI.png" alt="Faculty Insights Podcast" class="portfolio-preview-image">
-                        </div>
-                        <div class="course-links">
-                            <a href="https://jpinyu.com/2022/05/21/faculty-insights-podcast-the-global-effects-of-the-war-in-ukraine/" target="_blank">Global Effects of the War in Ukraine</a>
-                            <a href="https://jpinyu.com/2022/02/22/faculty-insights-podcast-the-covid-19-vaccine-in-the-world/" target="_blank">COVID-19 Vaccine in the World</a>
-                            <a href="https://jpinyu.com/2021/11/21/faculty-insights-podcast-humanitarian-efforts-in-afghanistan/" target="_blank">Humanitarian Efforts in Afghanistan</a>
+                        <div class="panel">
+                            <div class="panel-head">
+                                <h3><a href="https://jpinyu.com/category/multimedia/" target="_blank" rel="noopener">NYU | Faculty Insights Podcast</a></h3>
+                                <p>Created, produced, interviewed, coordinated, and edited an informative podcast series featuring NYU faculty experts as the Editor-in-Chief of the NYU Journal of Political Inquiry. Notable episodes include:</p>
+                                <div class="pill-links">
+                                    <a class="pill" href="https://jpinyu.com/2022/05/21/faculty-insights-podcast-the-global-effects-of-the-war-in-ukraine/" target="_blank" rel="noopener">Global Effects of the War in Ukraine</a>
+                                    <a class="pill" href="https://jpinyu.com/2022/02/22/faculty-insights-podcast-the-covid-19-vaccine-in-the-world/" target="_blank" rel="noopener">COVID-19 Vaccine in the World</a>
+                                    <a class="pill" href="https://jpinyu.com/2021/11/21/faculty-insights-podcast-humanitarian-efforts-in-afghanistan/" target="_blank" rel="noopener">Humanitarian Efforts in Afghanistan</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="design" class="work-category">
-                <h3>Design</h3>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <h4><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e2d9d879-22cb-403f-81ce-65032178a6bc" target="_blank">BrightTrip | How it Became Paris Course Guide</a></h4>
-                        <p>Visual guide exploring the historical development and cultural evolution of Paris, designed to complement the online course experience.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <h4><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:f4054e0b-756c-40a1-9cf9-b502fba0722e" target="_blank">BrightTrip | How it Became Manhattan Course Guide</a></h4>
-                        <p>Interactive guide detailing Manhattan's transformation from Dutch settlement to global metropolis, featuring maps and architectural highlights.</p>
-                    </div>
-                    <div class="portfolio-item">
-                        <h4><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:bc4548b8-f166-4a32-938e-f03eb25b84c3" target="_blank">BrightTrip | Traveling During a Pandemic Course Guide</a></h4>
-                        <p>Comprehensive guide providing essential information and best practices for safe travel during global health challenges.</p>
+                <div class="subsection" id="design">
+                    <h2 class="subsection-title">Design</h2>
+                    <div class="more-grid" data-stagger>
+                        <a class="more-card" href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e2d9d879-22cb-403f-81ce-65032178a6bc" target="_blank" rel="noopener">
+                            <p class="more-kicker">BrightTrip</p>
+                            <h3>How it Became Paris Course Guide</h3>
+                            <p>Visual guide exploring the historical development and cultural evolution of Paris, designed to complement the online course experience.</p>
+                            <span class="link-arrow">View guide <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </a>
+                        <a class="more-card" href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:f4054e0b-756c-40a1-9cf9-b502fba0722e" target="_blank" rel="noopener">
+                            <p class="more-kicker">BrightTrip</p>
+                            <h3>How it Became Manhattan Course Guide</h3>
+                            <p>Interactive guide detailing Manhattan's transformation from Dutch settlement to global metropolis, featuring maps and architectural highlights.</p>
+                            <span class="link-arrow">View guide <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </a>
+                        <a class="more-card" href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:bc4548b8-f166-4a32-938e-f03eb25b84c3" target="_blank" rel="noopener">
+                            <p class="more-kicker">BrightTrip</p>
+                            <h3>Traveling During a Pandemic Course Guide</h3>
+                            <p>Comprehensive guide providing essential information and best practices for safe travel during global health challenges.</p>
+                            <span class="link-arrow">View guide <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </a>
                     </div>
                 </div>
-            </div>
 
-            <div id="writing" class="work-category">
-                <h3>Writing</h3>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <h4><a href="https://medium.com/@royalotfi" target="_blank">Society and Culture</a></h4>
-                        <p>Personal essays exploring identity, race, and cultural dynamics in modern America.</p>
-                        <div class="course-links">
-                            <a href="https://medium.com/@royalotfi/being-ethnically-ambiguous-in-a-race-fueled-america-601d609404bc" target="_blank">Being Ethnically Ambiguous in a Race-Fueled America</a>
-                            <a href="https://medium.com/@royalotfi/asian-american-hate-proves-theres-no-right-way-to-be-a-minority-e26b1e087621" target="_blank">Asian-American Hate Proves There's No Right Way to be a Minority</a>
-                            <a href="https://medium.com/@royalotfi/the-found-generation-be3a37793c5d" target="_blank">The Found Generation</a>
-                            <a href="https://medium.com/@royalotfi/woman-up-the-case-for-the-defense-of-traditional-femininity-12d7205a4683" target="_blank">Woman Up: The Case for Traditional Femininity</a>
-                            <a href="https://medium.com/@royalotfi/we-must-do-better-by-our-journalists-ff4a1edab75c" target="_blank">We Must Do Better By Our Journalists</a>
+                <div class="subsection" id="writing">
+                    <h2 class="subsection-title">Writing</h2>
+                    <div class="more-grid" data-stagger>
+                        <div class="more-card">
+                            <p class="more-kicker">Medium</p>
+                            <h3><a href="https://medium.com/@royalotfi" target="_blank" rel="noopener">Society and Culture</a></h3>
+                            <p>Personal essays exploring identity, race, and cultural dynamics in modern America.</p>
+                            <div class="pill-links">
+                                <a class="pill" href="https://medium.com/@royalotfi/being-ethnically-ambiguous-in-a-race-fueled-america-601d609404bc" target="_blank" rel="noopener">Being Ethnically Ambiguous in a Race-Fueled America</a>
+                                <a class="pill" href="https://medium.com/@royalotfi/asian-american-hate-proves-theres-no-right-way-to-be-a-minority-e26b1e087621" target="_blank" rel="noopener">Asian-American Hate Proves There's No Right Way to be a Minority</a>
+                                <a class="pill" href="https://medium.com/@royalotfi/the-found-generation-be3a37793c5d" target="_blank" rel="noopener">The Found Generation</a>
+                                <a class="pill" href="https://medium.com/@royalotfi/woman-up-the-case-for-the-defense-of-traditional-femininity-12d7205a4683" target="_blank" rel="noopener">Woman Up: The Case for Traditional Femininity</a>
+                                <a class="pill" href="https://medium.com/@royalotfi/we-must-do-better-by-our-journalists-ff4a1edab75c" target="_blank" rel="noopener">We Must Do Better By Our Journalists</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <h4><a href="https://jpinyu.com/" target="_blank">Politics & International Affairs</a></h4>
-                        <p>Analysis and commentary on global politics, labor rights, and international relations.</p>
-                        <div class="course-links">
-                            <a href="https://jpinyu.com/2022/09/05/a-brief-history-of-the-us-labor-movement/" target="_blank">A Brief History of the US Labor Movement</a>
-                            <a href="https://jpinyu.com/2022/05/01/nato-expansion-is-still-an-option/" target="_blank">NATO Expansion is Still an Option</a>
-                            <a href="https://jpinyu.com/2022/09/25/perspective-the-everyday-oppression-of-irans-hijab-rule/" target="_blank">Perspective: The Everyday Oppression of Iran's Hijab Rule</a>
-                            <a href="https://jpinyu.com/2021/10/18/the-pandora-papers-why-you-should-care/" target="_blank">The Pandora Papers: Why You Should Care</a>
+                        <div class="more-card">
+                            <p class="more-kicker">NYU Journal of Political Inquiry</p>
+                            <h3><a href="https://jpinyu.com/" target="_blank" rel="noopener">Politics &amp; International Affairs</a></h3>
+                            <p>Analysis and commentary on global politics, labor rights, and international relations.</p>
+                            <div class="pill-links">
+                                <a class="pill" href="https://jpinyu.com/2022/09/05/a-brief-history-of-the-us-labor-movement/" target="_blank" rel="noopener">A Brief History of the US Labor Movement</a>
+                                <a class="pill" href="https://jpinyu.com/2022/05/01/nato-expansion-is-still-an-option/" target="_blank" rel="noopener">NATO Expansion is Still an Option</a>
+                                <a class="pill" href="https://jpinyu.com/2022/09/25/perspective-the-everyday-oppression-of-irans-hijab-rule/" target="_blank" rel="noopener">Perspective: The Everyday Oppression of Iran's Hijab Rule</a>
+                                <a class="pill" href="https://jpinyu.com/2021/10/18/the-pandora-papers-why-you-should-care/" target="_blank" rel="noopener">The Pandora Papers: Why You Should Care</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <h4><a href="https://montclairdispatch.com/author/rlotfi/" target="_blank">Local News & Politics</a></h4>
-                        <p>Coverage of local news, politics, and community issues for The Montclair Dispatch, focusing on stories that matter to the local community.</p>
+                        <a class="more-card" href="https://montclairdispatch.com/author/rlotfi/" target="_blank" rel="noopener">
+                            <p class="more-kicker">The Montclair Dispatch</p>
+                            <h3>Local News &amp; Politics</h3>
+                            <p>Coverage of local news, politics, and community issues for The Montclair Dispatch, focusing on stories that matter to the local community.</p>
+                            <span class="link-arrow">Read articles <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
+    </main>
 
-    <div class="social-buttons">
-        <a href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" class="social-button">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:roya@royalotfi.com" class="social-button">
-            <i class="fas fa-envelope"></i>
-        </a>
-    </div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Roya Lotfi. All rights reserved.</p>
+            <div class="footer-links">
+                <a class="icon-btn" href="https://www.linkedin.com/in/roya-lotfi-06609a17b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a class="icon-btn" href="mailto:roya@royalotfi.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
 
-    <div class="copyright">
-        © All rights reserved Roya Lotfi 2025
-    </div>
-
-    <script src="script.js"></script>
+    <script src="script.js?v=2.4" defer></script>
 </body>
 </html>

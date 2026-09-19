@@ -1,0 +1,12 @@
+{
+  "name": "follower-counts",
+  "private": true,
+  "type": "module",
+  "description": "Refreshes data/followers.json for the case study tiles",
+  "scripts": {
+    "update": "node update.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}
